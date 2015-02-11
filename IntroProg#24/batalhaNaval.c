@@ -396,6 +396,7 @@ bool jogadaJogador(int** tabuleiro) {
 		printf("Coluna: ");
 		scanf("%d", &coluna);
 
+		linha--;
 		coluna--;
 	} while (linha >= LINHAS || coluna >= COLUNAS);
 
